@@ -1,0 +1,8 @@
+- name: Conventional Changelog Action
+  uses: TriPSs/conventional-changelog-action@v1.2.0
+  with:
+    github-token: ${{b6a98fd77f7a6c04242c38e88d05f615d4668ae7 }}
+    git-message: "chore(release): {version}"
+    preset: "angular"
+    tag-prefix: "v"
+    output-file: "CHANGELOG.md"
